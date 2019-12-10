@@ -1,5 +1,5 @@
-# learning-pyfin
-Learning Python Financials
+# Learning Python
+Learning Python. TDD approach
 
 ## Installation
 1. Install python `$ brew install python3`
