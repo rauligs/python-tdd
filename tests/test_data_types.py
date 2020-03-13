@@ -21,3 +21,8 @@ def test_strings():
 def test_lists():
     assert isinstance([1, [2, 'three'], 4.5], list)
     assert isinstance(list(range(10)), list)
+
+
+def test_dictionaries():
+    assert isinstance({'food': 'spam', 'taste': 'yum'}, dict)
+    assert isinstance(dict(hours=10), dict)
