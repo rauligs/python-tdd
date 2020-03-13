@@ -16,3 +16,8 @@ def test_strings():
     assert isinstance("Bob's", str)
     assert isinstance(b'a\x01c', bytes)
     assert isinstance(u'sp\xc4m', str)
+
+
+def test_lists():
+    assert isinstance([1, [2, 'three'], 4.5], list)
+    assert isinstance(list(range(10)), list)
