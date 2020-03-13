@@ -35,3 +35,8 @@ def test_files():
 def test_sets():
     assert isinstance(set('abc'), set)
     assert isinstance({'a', 'b', 'c'}, set)
+
+
+def test_boolean():
+    assert isinstance(True, bool)
+    assert isinstance(False, bool)
