@@ -2,6 +2,7 @@ from decimal import Decimal
 from fractions import Fraction
 from os import path
 
+
 def test_numbers():
     assert isinstance(1234, int)
     assert isinstance(3.1415, float)
@@ -40,3 +41,8 @@ def test_sets():
 def test_boolean():
     assert isinstance(True, bool)
     assert isinstance(False, bool)
+
+
+def test_none():
+    # https://stackoverflow.com/questions/41928835/how-to-access-the-nonetype-type
+    assert type(None).__name__ == "NoneType"
