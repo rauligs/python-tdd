@@ -1,6 +1,6 @@
 from decimal import Decimal
 from fractions import Fraction
-
+from os import path
 
 def test_numbers():
     assert isinstance(1234, int)
@@ -26,3 +26,7 @@ def test_lists():
 def test_dictionaries():
     assert isinstance({'food': 'spam', 'taste': 'yum'}, dict)
     assert isinstance(dict(hours=10), dict)
+
+
+def test_files():
+    assert path.isfile('test_file.txt')
