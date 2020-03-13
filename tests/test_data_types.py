@@ -30,3 +30,8 @@ def test_dictionaries():
 
 def test_files():
     assert path.isfile('test_file.txt')
+
+
+def test_sets():
+    assert isinstance(set('abc'), set)
+    assert isinstance({'a', 'b', 'c'}, set)
