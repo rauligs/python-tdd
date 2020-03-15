@@ -2,6 +2,10 @@ from decimal import Decimal
 from fractions import Fraction
 from os import path
 
+# Learning Python. 5th Ed
+# II. Types and Operations
+# 4. Introducing Python Object Types
+
 
 def test_numbers():
     assert isinstance(1234, int)
@@ -30,7 +34,7 @@ def test_dictionaries():
 
 
 def test_files():
-    assert path.isfile('test_file.txt')
+    assert path.isfile('../test_file.txt')
 
 
 def test_sets():
@@ -46,3 +50,7 @@ def test_boolean():
 def test_none():
     # https://stackoverflow.com/questions/41928835/how-to-access-the-nonetype-type
     assert type(None).__name__ == "NoneType"
+
+# Other core types: types
+# Program unit types: Functions, modules, classes (Part IV, Part V, Part VI)
+# Implementation-related types: Compiled code, stack tracebacks (Part IV, Part VII)

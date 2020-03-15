@@ -1,6 +1,8 @@
 # Learning Python
 Learning Python. TDD approach
 
+Following examples from **Learning Python, 5th Ed.** By **Mark Lutz** 
+
 ## Installation
 1. Install python `$ brew install python3`
 1. Install `[pipenv](https://pipenv.readthedocs.io/en/latest/install/#installing-pipenv)`
