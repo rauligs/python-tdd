@@ -34,6 +34,6 @@ class TestNumbers:
         # https://docs.python.org/3/library/random.html
 
     def test_random_choice(self):
-        random_choice = random.choice([1, 2, 3, 4])
-        assert random_choice <= 4
-        assert random_choice >= 1
+        domain = [1, 2, 3, 4]
+        random_choice = random.choice(domain)
+        assert random_choice in domain
