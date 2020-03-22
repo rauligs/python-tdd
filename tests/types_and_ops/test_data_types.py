@@ -1,7 +1,9 @@
+import os
 from decimal import Decimal
 from fractions import Fraction
-from os import path
+from pathlib import Path
 
+FIXTURE_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'test_files')
 
 class TestCoreDataTypes:
 
@@ -28,7 +30,7 @@ class TestCoreDataTypes:
         assert isinstance(dict(hours=10), dict)
 
     def test_files(self):
-        assert path.isfile('../test_file.txt')
+        assert os.path.isfile(os.path.dirname(os.path.realpath(__file__)) + '/test_data_types_file.txt')
 
     def test_sets(self):
         assert isinstance(set('abc'), set)
