@@ -1,9 +1,7 @@
 import os
 from decimal import Decimal
 from fractions import Fraction
-from pathlib import Path
 
-FIXTURE_DIR = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'test_files')
 
 class TestCoreDataTypes:
 
