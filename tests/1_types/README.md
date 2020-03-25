@@ -1,1 +1,11 @@
 # Introduction. Types and Operations
+- Numbers
+- Strings
+- Lists
+- Dictionaries
+- Tuples
+- Files
+- Sets
+- Other core types: Booleans, types, None
+- Program unit types: Functions, modules, classes
+- Implementation-related types: Compiled code, stack tracebacks
