@@ -35,3 +35,14 @@ class TestSets:
 
     def test_in_membership_tests(self):
         assert ('p' in set('spam'), 'p' in 'spam', 'ham' in ['eggs', 'spam', 'ham']) == (True, True, True)
+
+# Note:
+# 1. Sets can only contain immutable (a.k.a. “hashable”) object types hence, lists and dictionaries
+# cannot be embedded in sets, but tuples can if you need to store compound values
+
+# 2. Common uses:
+#   - 'Filter duplicates' out of other collections (be aware that order may change after)
+#   - 'Order-neutral equality'. Two sets are equal if and only if every element
+#   of each set is contained in the other
+#   - Keep track of visited nodes in a graph
+#   - Dealing with large data sets (ie. database query results)
