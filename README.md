@@ -1,5 +1,4 @@
 # Learning Python
-Learning Python. TDD approach
 
 Following examples from **Learning Python, 5th Ed.** By **Mark Lutz** 
 
